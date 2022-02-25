@@ -1,17 +1,54 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <classpath>
 	<classpathentry kind="src" path="src"/>
-	<classpathentry kind="src" path="res"/>
-	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7">
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/jdk1.8.0_181">
 		<attributes>
-			<attribute name="maven.pomderived" value="true"/>
+			<attribute name="owner.project.facets" value="java"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry kind="lib" path="lib/guava-16.0.1.jar"/>
-	<classpathentry kind="lib" path="lib/jersey-client-1.18.3.jar"/>
-	<classpathentry kind="lib" path="lib/jersey-core-1.18.3.jar"/>
-	<classpathentry kind="lib" path="lib/jersey-multipart-1.18.3.jar"/>
-	<classpathentry kind="lib" path="lib/jersey-server-1.18.3.jar"/>
-	<classpathentry kind="lib" path="lib/log4j-1.2.17.jar"/>
-	<classpathentry kind="output" path="build-eclipse/classes"/>
+	<classpathentry kind="lib" path="lib/default/activation.jar"/>
+	<classpathentry kind="lib" path="lib/default/commons-codec.jar"/>
+	<classpathentry kind="lib" path="lib/default/commons-httpclient.jar"/>
+	<classpathentry kind="lib" path="lib/default/commons-io.jar"/>
+	<classpathentry kind="lib" path="lib/default/commons-logging.jar"/>
+	<classpathentry kind="lib" path="lib/default/geronimo-jms_1.1_spec.jar"/>
+	<classpathentry kind="lib" path="lib/default/grizzly-framework.jar"/>
+	<classpathentry kind="lib" path="lib/default/grizzly-http-server.jar"/>
+	<classpathentry kind="lib" path="lib/default/grizzly-http.jar"/>
+	<classpathentry kind="lib" path="lib/default/grizzly-rcm.jar"/>
+	<classpathentry kind="lib" path="lib/default/guava-javadoc.jar"/>
+	<classpathentry kind="lib" path="lib/default/guava-sources.jar"/>
+	<classpathentry kind="lib" path="lib/default/guava.jar"/>
+	<classpathentry kind="lib" path="lib/default/http.jar"/>
+	<classpathentry kind="lib" path="lib/default/javaee-api.jar"/>
+	<classpathentry kind="lib" path="lib/default/jaxb-api.jar"/>
+	<classpathentry kind="lib" path="lib/default/jaxb-impl.jar"/>
+	<classpathentry kind="lib" path="lib/default/jersey-apache-client.jar"/>
+	<classpathentry kind="lib" path="lib/default/jersey-client-javadoc.jar"/>
+	<classpathentry kind="lib" path="lib/default/jersey-client-sources.jar"/>
+	<classpathentry kind="lib" path="lib/default/jersey-client.jar"/>
+	<classpathentry kind="lib" path="lib/default/jersey-core-javadoc.jar"/>
+	<classpathentry kind="lib" path="lib/default/jersey-core-sources.jar"/>
+	<classpathentry kind="lib" path="lib/default/jersey-core.jar"/>
+	<classpathentry kind="lib" path="lib/default/jersey-grizzly2.jar"/>
+	<classpathentry kind="lib" path="lib/default/jersey-multipart-javadoc.jar"/>
+	<classpathentry kind="lib" path="lib/default/jersey-multipart-sources.jar"/>
+	<classpathentry kind="lib" path="lib/default/jersey-multipart.jar"/>
+	<classpathentry kind="lib" path="lib/default/jersey-server-javadoc.jar"/>
+	<classpathentry kind="lib" path="lib/default/jersey-server-sources.jar"/>
+	<classpathentry kind="lib" path="lib/default/jersey-server.jar"/>
+	<classpathentry kind="lib" path="lib/default/jsr250-api.jar"/>
+	<classpathentry kind="lib" path="lib/default/jsr305.jar"/>
+	<classpathentry kind="lib" path="lib/default/jsr311-api.jar"/>
+	<classpathentry kind="lib" path="lib/default/junit.jar"/>
+	<classpathentry kind="lib" path="lib/default/log4j-javadoc.jar"/>
+	<classpathentry kind="lib" path="lib/default/log4j-sources.jar"/>
+	<classpathentry kind="lib" path="lib/default/log4j.jar"/>
+	<classpathentry kind="lib" path="lib/default/mail.jar"/>
+	<classpathentry kind="lib" path="lib/default/mimepull.jar"/>
+	<classpathentry kind="lib" path="lib/default/org.osgi.core.jar"/>
+	<classpathentry kind="lib" path="lib/default/oro.jar"/>
+	<classpathentry kind="lib" path="lib/default/osgi_R4_core.jar"/>
+	<classpathentry kind="lib" path="lib/default/stax-api.jar"/>
+	<classpathentry kind="output" path="build/classes"/>
 </classpath>

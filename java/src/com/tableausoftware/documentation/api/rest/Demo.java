@@ -76,7 +76,8 @@ public class Demo {
         ProjectType defaultProject = null;
         ProjectListType projects = s_restApiUtils.invokeQueryProjects(credential, currentSiteId);
         for (ProjectType project : projects.getProject()) {
-            if (project.getName().equals("default") || project.getName().equals("Default")) {
+            //if (project.getName().equals("default") || project.getName().equals("Default")) {
+        	if (project.getName().equals("test") || project.getName().equals("Test")) {
                 defaultProject = project;
 
                 s_logger.info(String.format("Default project found: %s", defaultProject.getId()));

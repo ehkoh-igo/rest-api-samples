@@ -15,7 +15,8 @@
     <property file="ant.properties"/>
 
     <path id="classpath">
-        <fileset dir="${lib.dir}" includes="**/*.jar"/>
+        <!-- <fileset dir="${lib.dir}" includes="**/*.jar"/> -->
+    	<fileset dir="${lib.dir}" includes="E:\Users\IGO\apache-ant-1.9.16\lib\*.jar"/>
     </path>
 
     <target name="resolve">
